@@ -63,16 +63,19 @@ GitHub | Version control |
 ![Login](assets/images/lo.jpg)
 
 ## OTP Verification
-![OTP](screenshots/otp.png)
+![OTP](assets/images/ot.jpg)
+
+## Name Screen
+![OTP](assets/images/na.jpg)
 
 ## Home Screen
-![Home](screenshots/home.png)
+![Home](assets/images/ha.jpg)
 
 ## Add Task
-![Add Task](screenshots/add_task.png)
+![Add Task](assets/images/hh.jpg)
 
 ## Profile Screen
-![Profile](screenshots/profile.png)
+![Profile](assets/images/pp.jpg)
 
 ---
 
