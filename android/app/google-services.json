@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "824732786303",
+    "project_id": "hemody-6bb1d",
+    "storage_bucket": "hemody-6bb1d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824732786303:android:d9764b58b0761f8499e94a",
+        "android_client_info": {
+          "package_name": "com.example.herodydemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChdWhqKSdlC3dhPVccEfk2GQQtXwLaaII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

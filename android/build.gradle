@@ -1,0 +1,31 @@
+buildscript {
+    ext.kotlin_version = '1.9.22' // Latest stable Kotlin version
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }  // For third-party dependencies
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.android.tools.build:gradle:8.3.0'// Latest stable AGP version
+        classpath "com.google.gms:google-services:4.4.0" // Latest Firebase plugin
+    }
+}
+
+rootProject.buildDir = "../build"
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+subprojects {
+    afterEvaluate { project ->
+        if (project != rootProject && project.hasProperty("android")) {
+            project.android.compileSdkVersion = 34
+        }
+    }
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
