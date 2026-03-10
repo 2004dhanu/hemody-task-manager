@@ -56,9 +56,11 @@ GitHub | Version control |
 ---
 
 # 📱 App Screenshots
+## Onboarding Screen
+![Login](images/on.jpg)
 
 ## Login Screen
-![Login](screenshots/login.png)
+![Login](images/lo.jpg)
 
 ## OTP Verification
 ![OTP](screenshots/otp.png)
