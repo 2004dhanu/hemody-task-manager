@@ -29,7 +29,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
     },
     {
       "image": "assets/images/front.jpg",
-      "title": "Chat\nEasily",
+      "title": "\nEasily",
       "desc":
           "To- do,anytime, anywhere.",
       "gradient": [Color(0xFF0A0A0A), Color(0xFF1A1A2E)],
