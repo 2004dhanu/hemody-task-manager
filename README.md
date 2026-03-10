@@ -57,10 +57,10 @@ GitHub | Version control |
 
 # 📱 App Screenshots
 ## Onboarding Screen
-![Login](images/on.jpg)
+![Login](assets/images/on.jpg)
 
 ## Login Screen
-![Login](images/lo.jpg)
+![Login](assets/images/lo.jpg)
 
 ## OTP Verification
 ![OTP](screenshots/otp.png)
