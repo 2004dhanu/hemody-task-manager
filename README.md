@@ -1,16 +1,77 @@
-# herodydemo
+# 📋 Hemody Task Manager
 
-A new Flutter project.
+Hemody Task Manager is a **Flutter + Firebase task management application** that allows users to manage daily tasks with **secure OTP authentication, real-time updates, and automated email notifications**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+# 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🔐 Phone OTP Authentication
+- Secure login using **Firebase Phone Authentication**
+- OTP verification for user login
+- Automatic session management
+- Logout functionality
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### ✅ Task Management
+Users can:
+
+- ➕ Add new tasks
+- 📝 Add task **description**
+- 📅 Set **due date and time**
+- ✏ Edit existing tasks
+- ✔ Mark tasks as **completed**
+- ❌ Delete tasks
+- 🔄 View tasks in real-time (Firestore)
+
+---
+
+### 📧 Email Notifications
+When a user adds a task:
+
+- A **Firebase Cloud Function triggers automatically**
+- An **email notification is sent to the user's saved email**
+
+Email contains:
+
+- Task Title
+- Task Description
+- Due Date & Time
+- Hemody branding
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|--------|
+Flutter | Mobile App Development |
+Firebase Authentication | OTP Login |
+Cloud Firestore | Database |
+Firebase Cloud Functions | Email trigger |
+Nodemailer | Sending email |
+GitHub | Version control |
+
+---
+
+# 📱 App Screenshots
+
+## Login Screen
+![Login](screenshots/login.png)
+
+## OTP Verification
+![OTP](screenshots/otp.png)
+
+## Home Screen
+![Home](screenshots/home.png)
+
+## Add Task
+![Add Task](screenshots/add_task.png)
+
+## Profile Screen
+![Profile](screenshots/profile.png)
+
+---
+
+# 🧠 Application Architecture
